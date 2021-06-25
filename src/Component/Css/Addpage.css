@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Add-user {
+  max-width: 500px;
+  width: 100%;
+  background-color: rgb(13, 172, 235);
+  margin: 20px auto;
+  padding: 30px;
+  position: relative;
+}
+.Add-user .form {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.Add-user .form .Detail-requried {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.Add-user .form .Detail-requried label {
+  width: 180px;
+  color: black;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.Add-user .form .Detail-requried #name {
+  width: 100%;
+  padding: 8px 10px;
+}
+
+.reset-save {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.reset-save .btn {
+  background: hsl(150, 93%, 35%);
+  color: #fff;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.reset-save .btn1 {
+  background: #7a0226;
+  color: #fff;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  right: 1%;
+  top: 0%;
+  color: black;
+  font-size: 25px;
+}
+.close-btn :hover {
+  color: red;
+}
+
+/* .reset-save .btn2 {
+    background: #d30a57;
+    color: #fff;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+  } */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading-overlay p {
+  background: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.hidden {
+  display: none;
+}
